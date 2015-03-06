@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<project name="CMPT732A3-HBase" default="CreateJar">
+    <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="ExampleClient.jar" basedir="../bin/" includes="org/CMPT732A3/*.class" />
+    </target>
+</project>
